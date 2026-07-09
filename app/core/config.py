@@ -1,6 +1,6 @@
-# from pydantic_core import BaseSettings
+from pydantic_settings import BaseSettings
 
-class Config():
+class Config(BaseSettings):
     app_name: str = "AddressBookApplication"
     debug: bool = False
     db_user: str = ""

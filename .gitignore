@@ -1,4 +1,7 @@
 .venv
 __pycache__
 app/db/addresses.db
-addresses.log
+
+
+
+app/logs
