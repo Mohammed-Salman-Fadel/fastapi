@@ -8,6 +8,11 @@ Includes:
 - Logging into a `logs.log` file.
 - Comments under each function that simply describes the function's purpose.
 
+**IMPORTANT**: For the user to query addresses based on the a given distance, I used the Haversine
+formula, which to my knowledge is the appropriate formula to retrieve the most accurate results. It will calculate the distance between all the addresses and a radius (in km) given by the user. The radius is defualted to 5 km.
+
+- It is also possible to get addresses by entering their specific longitude and latitude values.
+
 ### Repo Structure
 
 ```

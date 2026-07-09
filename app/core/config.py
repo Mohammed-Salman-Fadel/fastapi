@@ -1,5 +1,6 @@
 from pydantic_settings import BaseSettings
 
+# Sets basic config settings for reusability 
 class Config(BaseSettings):
     app_name: str = "AddressBookApplication"
     debug: bool = False

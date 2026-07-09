@@ -4,4 +4,4 @@ app/db/addresses.db
 
 
 
-app/logs
+app/logs/logs.log

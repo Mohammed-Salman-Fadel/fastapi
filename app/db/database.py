@@ -21,7 +21,7 @@ def create_table():
                     )
                 """)
 
-
+# 3 Sample data that can be used to test the api
 def sample_create():
     cur = conn.cursor()
     sample_addresses = [

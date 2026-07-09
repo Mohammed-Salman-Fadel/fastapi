@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from app.logs.logging import setup_logging
 from app.core.config import config
 from app.api import addresses
-import sqlite3
 
 setup_logging()
 
